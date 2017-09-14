@@ -12,9 +12,43 @@ namespace prjForkGame
 {
     public partial class Form1 : Form
     {
+        private string palavra;
+
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            NovaPalavra palavraUsuario = new NovaPalavra();
+            palavraUsuario.ShowDialog();
+            palavra = palavraUsuario.novoTexto;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            String[] randomWord = new String[10];
+            randomWord[0] = "argila";
+            randomWord[1] = "veneno";
+            randomWord[2] = "problema";
+            randomWord[3] = "algarismo";
+            randomWord[4] = "estrutura";
+            randomWord[5] = "pneu";
+            randomWord[6] = "porta";
+            randomWord[7] = "cofre";
+            randomWord[8] = "cinto";
+            randomWord[9] = "eucalipto";
+
+            Random numeroAleatorio = new Random();
+            int posicao = numeroAleatorio.Next(0, randomWord.Length);
+            palavra = randomWord[posicao];
+            MessageBox.Show(palavra);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
