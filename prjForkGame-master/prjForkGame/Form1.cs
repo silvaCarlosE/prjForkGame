@@ -14,7 +14,7 @@ namespace prjForkGame
     {
         private string palavra;
         int tamanhoPalavra;
-        int locx = 214, locy = 160;
+        int locx = 187, locy = 160;
         TextBox[] txtCampos;
 
         public Form1()
@@ -60,6 +60,17 @@ namespace prjForkGame
             palavra = randomWord[posicao];
             MessageBox.Show(palavra);
             tamanhoPalavra = palavra.Length;
+            txtCampos = new TextBox[tamanhoPalavra];
+
+            for (int i = 0; i < tamanhoPalavra; i++)
+            {
+                txtCampos[i] = new TextBox();
+                txtCampos[i].Size = new Size(33, 10);
+                txtCampos[i].Location = new Point(locx, locy);
+                txtCampos[i].Name = "txtCampos" + i;
+                this.Controls.Add(txtCampos[i]);
+                locx += 40;
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)
