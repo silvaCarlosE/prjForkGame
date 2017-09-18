@@ -13,10 +13,65 @@ namespace prjForkGame
     public partial class Form1 : Form
     {
         private string palavra;
+        private int erros=1;
+        
 
         public Form1()
         {
             InitializeComponent();
+            
+
+
+            if (erros == 1)
+            {
+                forca.Visible = false;
+                cabeça.Visible = true;
+
+                errosNumero.Items.Clear();
+                errosNumero.Items.Add("" + erros);
+
+            }
+            if(erros == 2)
+            {
+                cabeça.Visible = false;
+                bracoEsquedo.Visible = true;
+
+                errosNumero.Items.Clear();
+                errosNumero.Items.Add("" + erros);
+            }
+            if(erros == 3)
+            {
+                bracoEsquedo.Visible = false;
+                bracos.Visible = true;
+
+                errosNumero.Items.Clear();
+                errosNumero.Items.Add("" + erros);
+            }
+            if(erros == 4)
+            {
+                bracos.Visible = false;
+                perna.Visible = true;
+
+                errosNumero.Items.Clear();
+                errosNumero.Items.Add("" + erros);
+            }
+            if(erros == 5)
+            {
+                perna.Visible = false;
+                corpoInteiro.Visible = true;
+
+                errosNumero.Items.Clear();
+                errosNumero.Items.Add("" + erros);
+            }
+            if(erros ==6)
+            {
+                corpoInteiro.Visible = false;
+                morto.Visible = true;
+
+                errosNumero.Items.Clear();
+                errosNumero.Items.Add("" + erros);
+            }
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -50,5 +105,9 @@ namespace prjForkGame
         {
             Application.Exit();
         }
+
+       
+
+       
     }
 }

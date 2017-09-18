@@ -11,3 +11,14 @@ C:\Users\edu_l\OneDrive\Documentos\prjForkGame\prjForkGame\obj\Debug\prjForkGame
 C:\Users\edu_l\OneDrive\Documentos\prjForkGame\prjForkGame\obj\Debug\prjForkGame.exe
 C:\Users\edu_l\OneDrive\Documentos\prjForkGame\prjForkGame\obj\Debug\prjForkGame.pdb
 C:\Users\edu_l\OneDrive\Documentos\prjForkGame\prjForkGame\obj\Debug\prjForkGame.NovaPalavra.resources
+C:\Users\gusta\Desktop\prjForkGame\prjForkGame\bin\Debug\prjForkGame.exe.config
+C:\Users\gusta\Desktop\prjForkGame\prjForkGame\bin\Debug\prjForkGame.exe
+C:\Users\gusta\Desktop\prjForkGame\prjForkGame\bin\Debug\prjForkGame.pdb
+C:\Users\gusta\Desktop\prjForkGame\prjForkGame\obj\Debug\prjForkGame.csprojResolveAssemblyReference.cache
+C:\Users\gusta\Desktop\prjForkGame\prjForkGame\obj\Debug\prjForkGame.Form1.resources
+C:\Users\gusta\Desktop\prjForkGame\prjForkGame\obj\Debug\prjForkGame.NovaPalavra.resources
+C:\Users\gusta\Desktop\prjForkGame\prjForkGame\obj\Debug\prjForkGame.Properties.Resources.resources
+C:\Users\gusta\Desktop\prjForkGame\prjForkGame\obj\Debug\prjForkGame.csproj.GenerateResource.Cache
+C:\Users\gusta\Desktop\prjForkGame\prjForkGame\obj\Debug\prjForkGame.csproj.CoreCompileInputs.cache
+C:\Users\gusta\Desktop\prjForkGame\prjForkGame\obj\Debug\prjForkGame.exe
+C:\Users\gusta\Desktop\prjForkGame\prjForkGame\obj\Debug\prjForkGame.pdb
