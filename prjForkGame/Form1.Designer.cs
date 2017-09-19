@@ -512,6 +512,7 @@
             this.corpo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.corpo.TabIndex = 14;
             this.corpo.TabStop = false;
+            this.corpo.Visible = false;
             // 
             // Form1
             // 
