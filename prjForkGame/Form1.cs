@@ -13,7 +13,7 @@ namespace prjForkGame
     public partial class Form1 : Form
     {
         private string palavra;
-        private int erros=1;
+        private int erros=0;
         
 
         public Form1()
@@ -25,21 +25,31 @@ namespace prjForkGame
             if (erros == 1)
             {
                 forca.Visible = false;
-                cabeça.Visible = true;
+                cabeca.Visible = true;
 
                 errosNumero.Items.Clear();
                 errosNumero.Items.Add("" + erros);
 
             }
-            if(erros == 2)
+
+            if (erros == 2)
             {
-                cabeça.Visible = false;
+                cabeca.Visible = false;
+                corpo.Visible = true;
+                
+                errosNumero.Items.Clear();
+                errosNumero.Items.Add("" + erros);
+            }
+
+            if(erros == 3)
+            {
+                corpo.Visible = false;
                 bracoEsquedo.Visible = true;
 
                 errosNumero.Items.Clear();
                 errosNumero.Items.Add("" + erros);
             }
-            if(erros == 3)
+            if(erros == 4)
             {
                 bracoEsquedo.Visible = false;
                 bracos.Visible = true;
@@ -47,7 +57,7 @@ namespace prjForkGame
                 errosNumero.Items.Clear();
                 errosNumero.Items.Add("" + erros);
             }
-            if(erros == 4)
+            if(erros == 5)
             {
                 bracos.Visible = false;
                 perna.Visible = true;
@@ -55,7 +65,7 @@ namespace prjForkGame
                 errosNumero.Items.Clear();
                 errosNumero.Items.Add("" + erros);
             }
-            if(erros == 5)
+            if(erros == 6)
             {
                 perna.Visible = false;
                 corpoInteiro.Visible = true;
@@ -63,7 +73,7 @@ namespace prjForkGame
                 errosNumero.Items.Clear();
                 errosNumero.Items.Add("" + erros);
             }
-            if(erros ==6)
+            if(erros ==7)
             {
                 corpoInteiro.Visible = false;
                 morto.Visible = true;
@@ -106,8 +116,135 @@ namespace prjForkGame
             Application.Exit();
         }
 
-       
+        private void buttonA_Click(object sender, EventArgs e)
+        {
+            buttonA.Visible = false;
+        }
 
-       
+        private void buttonB_Click(object sender, EventArgs e)
+        {
+            buttonB.Visible = false;
+        }
+
+        private void buttonC_Click(object sender, EventArgs e)
+        {
+            buttonC.Visible = false;
+        }
+
+        private void buttonD_Click(object sender, EventArgs e)
+        {
+            buttonD.Visible = false;
+        }
+
+        private void buttonE_Click(object sender, EventArgs e)
+        {
+            buttonE.Visible = false;
+        }
+
+        private void buttonF_Click(object sender, EventArgs e)
+        {
+            buttonF.Visible = false;
+        }
+
+        private void buttonG_Click(object sender, EventArgs e)
+        {
+            buttonG.Visible = false;
+        }
+
+        private void buttonH_Click(object sender, EventArgs e)
+        {
+            buttonH.Visible = false;
+        }
+
+        private void buttonI_Click(object sender, EventArgs e)
+        {
+            buttonI.Visible = false;
+        }
+
+        private void buttonJ_Click(object sender, EventArgs e)
+        {
+            buttonJ.Visible = false;
+        }
+
+        private void buttonK_Click(object sender, EventArgs e)
+        {
+            buttonK.Visible = false;
+        }
+
+        private void buttonL_Click(object sender, EventArgs e)
+        {
+            buttonL.Visible = false;
+        }
+
+        private void buttonM_Click(object sender, EventArgs e)
+        {
+            buttonM.Visible = false;
+        }
+
+        private void buttonN_Click(object sender, EventArgs e)
+        {
+            buttonN.Visible = false;
+        }
+
+        private void buttonO_Click(object sender, EventArgs e)
+        {
+            buttonO.Visible = false;
+        }
+
+        private void buttonP_Click(object sender, EventArgs e)
+        {
+            buttonP.Visible = false;
+        }
+
+        private void buttonQ_Click(object sender, EventArgs e)
+        {
+            buttonQ.Visible = false;
+        }
+
+        private void buttonR_Click(object sender, EventArgs e)
+        {
+            buttonR.Visible = false;
+        }
+
+        private void buttonS_Click(object sender, EventArgs e)
+        {
+            buttonS.Visible = false;
+        }
+
+        private void buttonT_Click(object sender, EventArgs e)
+        {
+            buttonT.Visible = false;
+        }
+
+        private void buttonU_Click(object sender, EventArgs e)
+        {
+            buttonU.Visible = false;
+        }
+
+        private void buttonV_Click(object sender, EventArgs e)
+        {
+            buttonV.Visible = false;
+        }
+
+        private void buttonW_Click(object sender, EventArgs e)
+        {
+            buttonW.Visible = false;
+        }
+
+        private void buttonX_Click(object sender, EventArgs e)
+        {
+            buttonX.Visible = false;
+        }
+
+        private void buttonY_Click(object sender, EventArgs e)
+        {
+            buttonY.Visible = false;
+        }
+
+        private void buttonZ_Click(object sender, EventArgs e)
+        {
+            buttonZ.Visible = false;
+        }
+    
     }
 }
