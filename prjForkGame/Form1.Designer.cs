@@ -430,7 +430,7 @@
             // bracos
             // 
             this.bracos.Image = ((System.Drawing.Image)(resources.GetObject("bracos.Image")));
-            this.bracos.Location = new System.Drawing.Point(13, 12);
+            this.bracos.Location = new System.Drawing.Point(8, 12);
             this.bracos.Name = "bracos";
             this.bracos.Size = new System.Drawing.Size(208, 219);
             this.bracos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -473,7 +473,7 @@
             // corpoInteiro
             // 
             this.corpoInteiro.Image = ((System.Drawing.Image)(resources.GetObject("corpoInteiro.Image")));
-            this.corpoInteiro.Location = new System.Drawing.Point(14, 13);
+            this.corpoInteiro.Location = new System.Drawing.Point(6, 13);
             this.corpoInteiro.Name = "corpoInteiro";
             this.corpoInteiro.Size = new System.Drawing.Size(207, 220);
             this.corpoInteiro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -484,7 +484,7 @@
             // perna
             // 
             this.perna.Image = ((System.Drawing.Image)(resources.GetObject("perna.Image")));
-            this.perna.Location = new System.Drawing.Point(13, 12);
+            this.perna.Location = new System.Drawing.Point(6, 12);
             this.perna.Name = "perna";
             this.perna.Size = new System.Drawing.Size(208, 219);
             this.perna.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -495,7 +495,7 @@
             // morto
             // 
             this.morto.Image = ((System.Drawing.Image)(resources.GetObject("morto.Image")));
-            this.morto.Location = new System.Drawing.Point(12, 13);
+            this.morto.Location = new System.Drawing.Point(8, 13);
             this.morto.Name = "morto";
             this.morto.Size = new System.Drawing.Size(207, 220);
             this.morto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -506,7 +506,7 @@
             // corpo
             // 
             this.corpo.Image = ((System.Drawing.Image)(resources.GetObject("corpo.Image")));
-            this.corpo.Location = new System.Drawing.Point(12, 12);
+            this.corpo.Location = new System.Drawing.Point(6, 12);
             this.corpo.Name = "corpo";
             this.corpo.Size = new System.Drawing.Size(209, 220);
             this.corpo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

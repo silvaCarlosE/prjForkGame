@@ -24,7 +24,33 @@ namespace prjForkGame
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            bool isString = false;
+            String palavra;
+            palavra = textBox1.Text;
+            isString = verificaLetras(palavra);
+            if (isString)
+            {
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Palavra incorreta");
+                textBox1.Clear();
+                textBox1.Focus();
+            }
+            
+        }
+
+        public bool verificaLetras(String palavra)
+        {
+            for (int i = 0; i < palavra.Length; i++)
+            {
+                //if (palavra.Substring(i, 1) == char.IsSymbol())
+                //{
+
+                //}
+            }
+            return true;
         }
 
 
