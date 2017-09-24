@@ -83,7 +83,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(190, 238);
+            this.button1.Location = new System.Drawing.Point(315, 238);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(92, 23);
             this.button1.TabIndex = 0;
@@ -93,7 +93,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(288, 238);
+            this.button2.Location = new System.Drawing.Point(413, 238);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(140, 23);
             this.button2.TabIndex = 1;
@@ -103,7 +103,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(434, 238);
+            this.button3.Location = new System.Drawing.Point(559, 238);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 2;
@@ -139,7 +139,8 @@
             this.groupBox1.Controls.Add(this.buttonC);
             this.groupBox1.Controls.Add(this.buttonB);
             this.groupBox1.Controls.Add(this.buttonA);
-            this.groupBox1.Location = new System.Drawing.Point(288, 12);
+            this.groupBox1.Enabled = false;
+            this.groupBox1.Location = new System.Drawing.Point(434, 13);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(200, 132);
             this.groupBox1.TabIndex = 3;
@@ -409,7 +410,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.errosNumero);
-            this.groupBox2.Location = new System.Drawing.Point(221, 13);
+            this.groupBox2.Location = new System.Drawing.Point(315, 13);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(61, 100);
             this.groupBox2.TabIndex = 5;
@@ -518,7 +519,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(516, 273);
+            this.ClientSize = new System.Drawing.Size(647, 273);
             this.Controls.Add(this.corpo);
             this.Controls.Add(this.morto);
             this.Controls.Add(this.perna);

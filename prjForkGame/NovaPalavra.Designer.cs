@@ -37,6 +37,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(25, 68);
             this.textBox1.Name = "textBox1";
+            this.textBox1.PasswordChar = '°';
             this.textBox1.Size = new System.Drawing.Size(230, 20);
             this.textBox1.TabIndex = 0;
             // 

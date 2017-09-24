@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -43,13 +44,18 @@ namespace prjForkGame
 
         public bool verificaLetras(String palavra)
         {
+            Char letter;
             for (int i = 0; i < palavra.Length; i++)
             {
-                //if (palavra.Substring(i, 1) == char.IsSymbol())
-                //{
+                letter = Char.Parse(palavra.Substring(i,1));
+                if (!Char.IsLetter(letter))
+                {
+                    return false;
+                }
 
-                //}
+                
             }
+
             return true;
         }
 

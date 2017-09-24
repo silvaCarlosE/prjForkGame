@@ -49,6 +49,8 @@ namespace prjForkGame
             
             tamanhoPalavraAtual = palavra.Length;
             gerarCampos(tamanhoPalavraAtual);
+
+            groupBox1.Enabled = true;
         }
 
         public void gerarCampos(int tamanhoPalavraAtual)
@@ -60,6 +62,7 @@ namespace prjForkGame
                 txtCampos[i] = new TextBox();
                 txtCampos[i].Size = new Size(33, 10);
                 txtCampos[i].Location = new Point(locx, locy);
+                txtCampos[i].ReadOnly = true;
                 txtCampos[i].Name = "txtCampos" + i;
                 this.Controls.Add(txtCampos[i]);
                 locx += 40;
@@ -94,6 +97,8 @@ namespace prjForkGame
             palavra = randomWord[posicao];
             tamanhoPalavraAtual = palavra.Length;
             gerarCampos(tamanhoPalavraAtual);
+
+            groupBox1.Enabled = true;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -259,13 +264,14 @@ namespace prjForkGame
 
         public void compararCampos(string letra)
         {
+            
             bool erro = true;
 
             for(int i=0;i<tamanhoPalavraAtual;i++)
             {
                 if(palavra.Substring(i, 1) == letra)
                 {
-                    txtCampos[i].Text = letra;
+                    txtCampos[i].Text = letra.ToUpper();
                     erro = false;
 
                     int qtTexto = 0;
